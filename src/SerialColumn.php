@@ -5,7 +5,7 @@
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  */
 
-namespace yii2tech\spreadsheet;
+namespace pixium\spreadsheet;
 
 /**
  * SerialColumn displays a column of row numbers (1-based).
@@ -15,7 +15,7 @@ namespace yii2tech\spreadsheet;
  * ```php
  * 'columns' => [
  *     [
- *         'class' => \yii2tech\spreadsheet\SerialColumn::class,
+ *         'class' => \pixium\spreadsheet\SerialColumn::class,
  *     ],
  *     // ...
  * ]

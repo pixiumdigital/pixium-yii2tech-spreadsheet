@@ -5,7 +5,7 @@
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  */
 
-namespace yii2tech\spreadsheet;
+namespace pixium\spreadsheet;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use yii\data\ActiveDataProvider;
