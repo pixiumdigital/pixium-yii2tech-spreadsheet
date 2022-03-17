@@ -47,7 +47,7 @@ Example:
 ```php
 <?php
 
-use yii2tech\spreadsheet\Spreadsheet;
+use pixium\spreadsheet\Spreadsheet;
 use yii\data\ArrayDataProvider;
 
 $exporter = new Spreadsheet([
@@ -89,7 +89,7 @@ the browser through download dialog:
 ```php
 <?php
 
-use yii2tech\spreadsheet\Spreadsheet;
+use pixium\spreadsheet\Spreadsheet;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 
@@ -118,7 +118,7 @@ before creating final file. For example:
 ```php
 <?php
 
-use yii2tech\spreadsheet\Spreadsheet;
+use pixium\spreadsheet\Spreadsheet;
 use yii\data\ActiveDataProvider;
 use app\models\Equipment;
 
@@ -171,7 +171,7 @@ Thus you should setup pagination with page size in order to control batch size:
 ```php
 <?php
 
-use yii2tech\spreadsheet\Spreadsheet;
+use pixium\spreadsheet\Spreadsheet;
 use yii\data\ActiveDataProvider;
 
 $exporter = new Spreadsheet([
@@ -195,7 +195,7 @@ You can control batch size via `\yii2tech\spreadsheet\Spreadsheet::$batchSize`:
 ```php
 <?php
 
-use yii2tech\spreadsheet\Spreadsheet;
+use pixium\spreadsheet\Spreadsheet;
 use yii\data\ActiveDataProvider;
 
 $exporter = new Spreadsheet([
@@ -225,7 +225,7 @@ For example:
 ```php
 <?php
 
-use yii2tech\spreadsheet\Spreadsheet;
+use pixium\spreadsheet\Spreadsheet;
 use yii\data\ArrayDataProvider;
 
 $exporter = new Spreadsheet([
@@ -286,8 +286,8 @@ to override or add some content. For example:
 ```php
 <?php
 
-use yii2tech\spreadsheet\Spreadsheet;
-use yii2tech\spreadsheet\SerialColumn;
+use pixium\spreadsheet\Spreadsheet;
+use pixium\spreadsheet\SerialColumn;
 use yii\data\ArrayDataProvider;
 
 $exporter = new Spreadsheet([

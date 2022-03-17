@@ -28,7 +28,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "pixium\\yii2-spreadsheet\\": "src" }
+        "psr-4": { "pixium\\spreadsheet\\": "src" }
     },
     "extra": {
         "branch-alias": {
