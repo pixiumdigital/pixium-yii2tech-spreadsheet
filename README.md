@@ -23,13 +23,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-$ composer require pixium/pixium-yii2tech-spreadsheet:dev-master
+$ composer require pixium/yii2-spreadsheet:dev-master
 ```
 
 or add
 
 ```json
-"pixium/pixium-yii2tech-spreadsheet": "*"
+"pixium/yii2-spreadsheet": "*"
 ```
 
 to the require section of your composer.json.
