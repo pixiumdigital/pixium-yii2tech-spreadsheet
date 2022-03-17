@@ -29,7 +29,7 @@ $ composer require pixium/yii2-spreadsheet:dev-master
 or add
 
 ```json
-"pixium/yii2-spreadsheet": "*"
+"pixium/yii2-spreadsheet": "@dev"
 ```
 
 to the require section of your composer.json.
