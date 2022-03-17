@@ -12,6 +12,7 @@ use yii\data\ActiveDataProvider;
 use yii\db\ActiveQueryInterface;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Inflector;
+use kartik\grid\DataColumn as KDataColumn;
 
 /**
  * DataColumn is the default column type for the {@see Spreadsheet}.
@@ -19,7 +20,7 @@ use yii\helpers\Inflector;
  * @author Paul Klimov <klimov.paul@gmail.com>
  * @since 1.0
  */
-class DataColumn extends Column
+class DataColumn extends KDataColumn
 {
     /**
      * @var string the attribute name associated with this column. When neither {@see Column::$content} nor {@see value}
